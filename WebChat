@@ -1,0 +1,318 @@
+Last login: Thu Mar  3 10:01:58 on ttys000
+AppyQueen:~ krishnaa$ cd /Applications/XAMPP/htdocs 
+AppyQueen:htdocs krishnaa$ composer create-project laravel/laravel WebChat --prefer-dist
+Warning: This development build of composer is over 60 days old. It is recommended to update it by running "/usr/local/bin/composer self-update" to get the latest version.
+Installing laravel/laravel (v5.2.15)
+  - Installing laravel/laravel (v5.2.15)
+    Loading from cache
+
+Created project in WebChat
+> php -r "copy('.env.example', '.env');"
+Loading composer repositories with package information
+Installing dependencies (including require-dev)
+  - Installing vlucas/phpdotenv (v2.2.0)
+    Loading from cache
+
+  - Installing symfony/polyfill-mbstring (v1.1.0)
+    Loading from cache
+
+  - Installing symfony/var-dumper (v3.0.3)
+    Downloading: 100%         
+
+  - Installing symfony/translation (v3.0.3)
+    Loading from cache
+
+  - Installing symfony/routing (v3.0.3)
+    Downloading: 100%         
+
+  - Installing symfony/process (v3.0.3)
+    Loading from cache
+
+  - Installing symfony/polyfill-util (v1.1.0)
+    Loading from cache
+
+  - Installing symfony/polyfill-php56 (v1.1.0)
+    Loading from cache
+
+  - Installing psr/log (1.0.0)
+    Loading from cache
+
+  - Installing symfony/debug (v3.0.3)
+    Loading from cache
+
+  - Installing symfony/http-foundation (v3.0.3)
+    Downloading: 100%         
+
+  - Installing symfony/event-dispatcher (v3.0.3)
+    Loading from cache
+
+  - Installing symfony/http-kernel (v3.0.3)
+    Downloading: 100%         
+
+  - Installing symfony/finder (v3.0.3)
+    Loading from cache
+
+  - Installing symfony/console (v3.0.3)
+    Downloading: 100%         
+
+  - Installing swiftmailer/swiftmailer (v5.4.1)
+    Loading from cache
+
+  - Installing jakub-onderka/php-console-color (0.1)
+    Loading from cache
+
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2)
+    Loading from cache
+
+  - Installing dnoegel/php-xdg-base-dir (0.1)
+    Loading from cache
+
+  - Installing nikic/php-parser (v2.0.1)
+    Downloading: 100%         
+
+  - Installing psy/psysh (v0.7.1)
+    Downloading: 100%         
+
+  - Installing paragonie/random_compat (v1.2.1)
+    Downloading: 100%         
+
+  - Installing nesbot/carbon (1.21.0)
+    Loading from cache
+
+  - Installing mtdowling/cron-expression (v1.1.0)
+    Loading from cache
+
+  - Installing monolog/monolog (1.18.0)
+    Downloading: 100%         
+
+  - Installing league/flysystem (1.0.17)
+    Downloading: 100%         
+
+  - Installing jeremeamia/superclosure (2.2.0)
+    Loading from cache
+
+  - Installing doctrine/inflector (v1.1.0)
+    Loading from cache
+
+  - Installing classpreloader/classpreloader (3.0.0)
+    Loading from cache
+
+  - Installing laravel/framework (v5.2.22)
+    Downloading: 100%         
+
+  - Installing fzaninotto/faker (v1.5.0)
+    Loading from cache
+
+  - Installing hamcrest/hamcrest-php (v1.2.2)
+    Loading from cache
+
+  - Installing mockery/mockery (0.9.4)
+    Loading from cache
+
+  - Installing sebastian/version (1.0.6)
+    Loading from cache
+
+  - Installing sebastian/global-state (1.1.1)
+    Loading from cache
+
+  - Installing sebastian/recursion-context (1.0.2)
+    Loading from cache
+
+  - Installing sebastian/exporter (1.2.1)
+    Loading from cache
+
+  - Installing sebastian/environment (1.3.5)
+    Downloading: 100%         
+
+  - Installing sebastian/diff (1.4.1)
+    Loading from cache
+
+  - Installing sebastian/comparator (1.2.0)
+    Loading from cache
+
+  - Installing symfony/yaml (v3.0.3)
+    Downloading: 100%         
+
+  - Installing doctrine/instantiator (1.0.5)
+    Loading from cache
+
+  - Installing phpdocumentor/reflection-docblock (2.0.4)
+    Loading from cache
+
+  - Installing phpspec/prophecy (v1.6.0)
+    Loading from cache
+
+  - Installing phpunit/php-text-template (1.2.1)
+    Loading from cache
+
+  - Installing phpunit/phpunit-mock-objects (2.3.8)
+    Loading from cache
+
+  - Installing phpunit/php-timer (1.0.7)
+    Loading from cache
+
+  - Installing phpunit/php-token-stream (1.4.8)
+    Loading from cache
+
+  - Installing phpunit/php-file-iterator (1.4.1)
+    Loading from cache
+
+  - Installing phpunit/php-code-coverage (2.2.4)
+    Loading from cache
+
+  - Installing phpunit/phpunit (4.8.23)
+    Loading from cache
+
+  - Installing symfony/css-selector (v3.0.3)
+    Loading from cache
+
+  - Installing symfony/dom-crawler (v3.0.3)
+    Downloading: 100%         
+
+symfony/var-dumper suggests installing ext-symfony_debug ()
+symfony/translation suggests installing symfony/config ()
+symfony/routing suggests installing symfony/config (For using the all-in-one router or any loader)
+symfony/routing suggests installing symfony/expression-language (For using expression matching)
+symfony/routing suggests installing doctrine/annotations (For using the annotation loader)
+symfony/routing suggests installing symfony/dependency-injection (For loading routes from a service)
+symfony/event-dispatcher suggests installing symfony/dependency-injection ()
+symfony/http-kernel suggests installing symfony/browser-kit ()
+symfony/http-kernel suggests installing symfony/class-loader ()
+symfony/http-kernel suggests installing symfony/config ()
+symfony/http-kernel suggests installing symfony/dependency-injection ()
+psy/psysh suggests installing ext-readline (Enables support for arrow-key history navigation, and showing and manipulating command history.)
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing raven/raven (Allow sending log messages to a Sentry server)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing videlalvaro/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+league/flysystem suggests installing league/flysystem-eventable-filesystem (Allows you to use EventableFilesystem)
+league/flysystem suggests installing league/flysystem-rackspace (Allows you to use Rackspace Cloud Files)
+league/flysystem suggests installing league/flysystem-copy (Allows you to use Copy.com storage)
+league/flysystem suggests installing league/flysystem-azure (Allows you to use Windows Azure Blob storage)
+league/flysystem suggests installing league/flysystem-webdav (Allows you to use WebDAV storage)
+league/flysystem suggests installing league/flysystem-aws-s3-v2 (Allows you to use S3 storage with AWS SDK v2)
+league/flysystem suggests installing league/flysystem-aws-s3-v3 (Allows you to use S3 storage with AWS SDK v3)
+league/flysystem suggests installing league/flysystem-dropbox (Allows you to use Dropbox storage)
+league/flysystem suggests installing league/flysystem-cached-adapter (Flysystem adapter decorator for metadata caching)
+league/flysystem suggests installing league/flysystem-sftp (Allows you to use SFTP server storage via phpseclib)
+league/flysystem suggests installing league/flysystem-ziparchive (Allows you to use ZipArchive adapter)
+laravel/framework suggests installing aws/aws-sdk-php (Required to use the SQS queue driver and SES mail driver (~3.0).)
+laravel/framework suggests installing doctrine/dbal (Required to rename columns and drop SQLite columns (~2.4).)
+laravel/framework suggests installing guzzlehttp/guzzle (Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~5.3|~6.0).)
+laravel/framework suggests installing league/flysystem-aws-s3-v3 (Required to use the Flysystem S3 driver (~1.0).)
+laravel/framework suggests installing league/flysystem-rackspace (Required to use the Flysystem Rackspace driver (~1.0).)
+laravel/framework suggests installing pda/pheanstalk (Required to use the beanstalk queue driver (~3.0).)
+laravel/framework suggests installing predis/predis (Required to use the redis cache and queue drivers (~1.0).)
+laravel/framework suggests installing pusher/pusher-php-server (Required to use the Pusher broadcast driver (~2.0).)
+fzaninotto/faker suggests installing ext-intl (*)
+sebastian/global-state suggests installing ext-uopz (*)
+phpdocumentor/reflection-docblock suggests installing dflydev/markdown (~1.0)
+phpdocumentor/reflection-docblock suggests installing erusev/parsedown (~1.0)
+phpunit/php-code-coverage suggests installing ext-xdebug (>=2.2.1)
+phpunit/phpunit suggests installing phpunit/php-invoker (~1.1)
+Writing lock file
+Generating autoload files
+> php artisan clear-compiled
+> php artisan optimize
+Generating optimized class loader
+> php artisan key:generate
+Application key [nVn1IMcWKSuFa7QRKDfXpAl3RW4zl0lj] set successfully.
+AppyQueen:htdocs krishnaa$ cd WebChat/
+AppyQueen:WebChat krishnaa$ sudo chmod -R 777 storage
+Password:
+AppyQueen:WebChat krishnaa$ php artisan
+Laravel Framework version 5.2.22
+
+Usage:
+  command [options] [arguments]
+
+Options:
+  -h, --help            Display this help message
+  -q, --quiet           Do not output any message
+  -V, --version         Display this application version
+      --ansi            Force ANSI output
+      --no-ansi         Disable ANSI output
+  -n, --no-interaction  Do not ask any interactive question
+      --env[=ENV]       The environment the command should run under.
+  -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  clear-compiled      Remove the compiled class file
+  down                Put the application into maintenance mode
+  env                 Display the current framework environment
+  help                Displays help for a command
+  list                Lists commands
+  migrate             Run the database migrations
+  optimize            Optimize the framework for better performance
+  serve               Serve the application on the PHP development server
+  tinker              Interact with your application
+  up                  Bring the application out of maintenance mode
+ app
+  app:name            Set the application namespace
+ auth
+  auth:clear-resets   Flush expired password reset tokens
+ cache
+  cache:clear         Flush the application cache
+  cache:table         Create a migration for the cache database table
+ config
+  config:cache        Create a cache file for faster configuration loading
+  config:clear        Remove the configuration cache file
+ db
+  db:seed             Seed the database with records
+ event
+  event:generate      Generate the missing events and listeners based on registration
+ key
+  key:generate        Set the application key
+ make
+  make:auth           Scaffold basic login and registration views and routes
+  make:console        Create a new Artisan command
+  make:controller     Create a new controller class
+  make:event          Create a new event class
+  make:job            Create a new job class
+  make:listener       Create a new event listener class
+  make:middleware     Create a new middleware class
+  make:migration      Create a new migration file
+  make:model          Create a new Eloquent model class
+  make:policy         Create a new policy class
+  make:provider       Create a new service provider class
+  make:request        Create a new form request class
+  make:seeder         Create a new seeder class
+  make:test           Create a new test class
+ migrate
+  migrate:install     Create the migration repository
+  migrate:refresh     Reset and re-run all migrations
+  migrate:reset       Rollback all database migrations
+  migrate:rollback    Rollback the last database migration
+  migrate:status      Show the status of each migration
+ queue
+  queue:failed        List all of the failed queue jobs
+  queue:failed-table  Create a migration for the failed queue jobs database table
+  queue:flush         Flush all of the failed queue jobs
+  queue:forget        Delete a failed queue job
+  queue:listen        Listen to a given queue
+  queue:restart       Restart queue worker daemons after their current job
+  queue:retry         Retry a failed queue job
+  queue:table         Create a migration for the queue jobs database table
+  queue:work          Process the next job on a queue
+ route
+  route:cache         Create a route cache file for faster route registration
+  route:clear         Remove the route cache file
+  route:list          List all registered routes
+ schedule
+  schedule:run        Run the scheduled commands
+ session
+  session:table       Create a migration for the session database table
+ vendor
+  vendor:publish      Publish any publishable assets from vendor packages
+ view
+  view:clear          Clear all compiled view files
+AppyQueen:WebChat krishnaa$ 
